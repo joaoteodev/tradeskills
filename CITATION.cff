@@ -1,0 +1,46 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Trade Skills
+message: >-
+  Repositório padrão para o Eixo 1 - Projeto 1: Aplicações
+  Web da PUC Minas.
+type: software
+authors:
+  - given-names: Ana Júlia
+    family-names: Ferino Machado
+    email: 1607321@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Camila
+    family-names: Malaman Mafra
+    email: 1611674@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: João Pedro
+    family-names: Teodoro dos Santos
+    email: 1440914@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Maria Eduarda
+    family-names: Soares de Oliveira
+    email: 1377949@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Mariana
+    family-names: de Cassia Rodrigues dos Santos Mendonça
+    email: 1615892@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Raissa
+    family-names: Nepomuceno Epaminondas
+    email: 1217058@sga.pucminas.br
+    affiliation: PUC Minas
+repository-code: >-
+  https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projtradeskills
+abstract: >-
+  Trade Skills é a plataforma web de economia colaborativa onde suas habilidades se transformam em serviços valiosos. Nosso sistema permite a troca de talentos entre usuários, sem a necessidade de dinheiro real.
+  Dessa forma, a plataforma impulsiona o desenvolvimento profissional e social, promovendo o acesso democrático a novas qualificações e serviços essenciais.
+  Com uma interface simples e intuitiva, a Trade Skills atende a diversos perfis, oferecendo recursos completos para cadastro de habilidades, pesquisa de interesse e gerenciamento de solicitações de troca.
+keywords:
+  - Desenvolvimento Web
+  - HTML
+  - CSS
+  - JavaScript
+date-released: '2025-12-11'
