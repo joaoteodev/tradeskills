@@ -10,8 +10,12 @@ class AppSidebar extends HTMLElement {
       window.location.hostname === "127.0.0.1";
     const basePath = isLocal ? "/src" : "";
 
+    const pathname = window.location.pathname;
+    console.log(pathname);
+
     try {
       const response = await fetch(`${basePath}/components/sidebar/index.html`);
+
       if (!response.ok) {
         throw new Error("Não foi possível carregar o template do sidebar.");
       }

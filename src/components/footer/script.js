@@ -35,12 +35,9 @@ class AppFooter extends HTMLElement {
           "href",
           `${basePath}/components/footer/style.css`
         );
-
         this.shadowRoot.appendChild(componentStyles);
-        this.shadowRoot.appendChild(templateContent);
 
-        const currentPath = window.location.pathname;
-        const links = this.shadowRoot.querySelectorAll("a");
+        this.shadowRoot.appendChild(templateContent);
       } else {
         console.error(
           "Template 'template-app-footer' não encontrado dentro de footer/index.html."
