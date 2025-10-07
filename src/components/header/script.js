@@ -5,11 +5,10 @@ class AppSidebar extends HTMLElement {
   }
 
   async connectedCallback() {
-    // const isLocal =
-    //   window.location.hostname === "localhost" ||
-    //   window.location.hostname === "127.0.0.1";
-    // const basePath = isLocal ? "/src" : "";
-    const basePath = "/src";
+    const isLocal =
+      window.location.hostname === "localhost" ||
+      window.location.hostname === "127.0.0.1";
+    const basePath = isLocal ? "/src" : "";
 
     try {
       const response = await fetch(`${basePath}/components/sidebar/index.html`);
